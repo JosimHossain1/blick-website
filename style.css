@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Default Code */
+
+.text-white {
+  color: #fff;
+}
+.text-black {
+  color: #000;
+}
+.text-pink {
+  color: #e03584;
+}
+.text-blue {
+  color: #7634bf;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.bg-pink {
+  background: #e03584;
+}
+.bg-blue {
+  background: #7634bf;
+}
+
+a{
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+/* Button */
+
+.btn {
+  padding: 13px 20px;
+  margin: 20px 0px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.shape {
+  width: 100%;
+  display: block;
+}
+/* Header */
+
+header {
+  height: 100%;
+  background: rgb(24, 14, 208);
+  background: linear-gradient(
+    301deg,
+    #180ed000 0%,
+    #ad0cc8 0%,
+    #370772 43%,
+    #000000 100%
+  );
+}
+
+header nav {
+  padding: 20px 0px;
+}
+header .hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .text-side {
+  width: 40%;
+}
+header .image-side {
+  width: 60%;
+  padding-left: 100px;
+}
+header .hero h1 {
+  font-size: 90px;
+  line-height: 95px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header .image-side img {
+  width: 600px;
+  margin: 0 auto;
+}
+
+header p {
+  width: 70%;
+  margin: 20px 0px;
+}
+.shape1 {
+  width: 100%;
+  margin-top: -200px;
+}
+
+/* Finance Place */
+
+#place .wrapper {
+  height: 600px;
+}
+#place .place-image {
+  width: 100%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#place .text-side {
+  padding-left: 200px;
+}
+#place .hash {
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+#place h1 {
+  margin: 20px 0px;
+  font-size: 60px;
+  font-weight: bold;
+}
+#place p {
+  width: 85%;
+  font-size: 17px;
+  line-height: 23px;
+}
+
+/* Review */
+
+#review {
+  background: black;
+  color: white;
+  padding: 100px 0px;
+  margin-top: -200px;
+}
+.review-row{
+  display: flex;
+}
+#review .title {
+  text-align: center;
+}
+
+#review .title h3 {
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+#review .title h1 {
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+#review .row img {
+  width: 100px;
+  height: 120px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+#review .row {
+  text-align: left;
+}
+
+#review .review2 {
+  margin-left: 100px;
+}
+#review .row h3 {
+  font-size: 20px;
+}
+
+#review .row p {
+  margin: 25px 0;
+}
+#review .row h6 {
+  font-size: 13px;
+}
+
+/* Count */
+
+#review .count {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#review .count h1 {
+  font-size: 100px;
+}
+
+/* Next */
+
+#next {
+  padding-bottom: 100px;
+  background: #6810a2;
+  background: linear-gradient(
+    0deg,
+    #6810a2 3%,
+    #000000 60%
+  );
+}
+#next .hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#next h1{
+  font-size: 60px;
+}
+#next p{
+  font-size: 17px;
+  margin: 20px 0;
+}
+.image7{
+  width: 450px
+}
+#next .google-btn, .play-btn{
+  font-size: 17px;
+  padding: 15px 35px;
+  cursor: pointer;
+}
+
+.shape3{
+  margin-top: -100px;
+}
+
+
+/* Footer */
+
+footer .wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+footer .logo-side h3{
+  font-weight: normal;
+  font-size: 25px;
+  margin-top: 10px;
+}
+footer ul{
+  margin-top:35px;
+}
+footer ul li{
+  color: #000;
+  margin-top: 5px;
+}
+
+footer .newsletter{
+  width: 60%;
+}
+footer .newsletter h2{
+  margin-bottom: 10px;
+  color: gray;
+}
+footer .input-box{
+  margin-top: 20px;
+}
+footer label{
+  color: gray;
+}
+footer input{
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #80808022;
+  margin: 5px 0;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+::placeholder{
+  font-size: 15px;
+}
+
+
+/* Media Query */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .container{
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .shape {
+    display: none;
+  }
+  /* Header */
+  header .text-side {
+    width: 100%;
+  }
+  .hero{
+    flex-direction: column;
+  }
+  header .hero h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  
+  header .image-side img {
+    width: 300px;   
+  }
+  header .text-side {
+    width: 100%;
+  }
+  header .image-side {
+    width: 100%;
+    padding-left: 00px;
+  }
+  header p {
+    width: 100%;
+  }
+  .shape1 {
+   display: none;
+  }
+  
+  /* Finance Place */
+  
+  #place .wrapper {
+    height: 100%;
+    padding: 30px 20px;
+  }
+  #place .place-image {
+   margin: 30px 0px;
+  }
+  #place .text-side {
+    padding-left: 0px
+  }
+  #place h1 {
+    margin: 0px 0px;
+    font-size: 35px;
+  }
+  #place p {
+    width: 100%;
+    margin-top: 10px;
+    line-height: 25px;
+  }
+  
+  /* Review */
+  
+  #review {
+    padding: 30px 0px;
+    margin-top: 00px;
+  }
+  .review-row{
+    display: flex;
+    flex-direction: column;
+  }
+  #review .title h1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  #review .row img {
+    width: 150px;
+    height: 170px;
+  }
+
+  #review .review2 {
+    margin-left: 0px;
+  }
+  #review .row h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  #review .row p {
+    line-height: 23px;
+  }
+  #review .row h6 {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* Count */
+  
+  #review .count {
+   
+    padding: 20px 0px;
+    flex-direction: column;
+  }
+  #review .count div{
+    margin: 10px 0px;
+  }
+  #review .count h1 {
+    font-size: 25px;
+  }
+  
+  /* Next */
+  
+
+  #next .hero {
+    flex-direction: column;
+  }
+  #next h1{
+    font-size: 30px;
+  }
+
+  .image7{
+    width: 200px
+  }
+  #next .button-group{
+    display: flex;
+  }
+  #next .google-btn, .play-btn{
+    font-size: 14px;
+    padding: 12px 25px;
+  }
+  
+  .shape3{
+    display: none;
+  }
+  
+  
+  /* Footer */
+  
+  footer .wrapper{
+   flex-direction: column;
+  }
+  
+  footer .logo-side h3{
+    font-size: 22px;
+  }
+  footer ul{
+    margin:25px 0px;
+  }  
+  footer .newsletter{
+    width: 100%;
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* Finance Place */
+  
+  #place .wrapper {
+    height: 100%;
+  }
+  .finance-wrap{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #place .text-side {
+    padding-left: 50px;
+  }
+  
+}
